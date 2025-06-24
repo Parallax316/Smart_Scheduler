@@ -66,8 +66,8 @@ ZetaCore is built with a modular architecture designed for clarity, maintainabil
 
 1. **Clone the repository**:
    ```
-   git clone <repository-url>
-   cd smart-scheduling-assistant
+   git clone https://github.com/Parallax316/Smart_Scheduler.git
+   cd Smart_Scheduler
    ```
 
 2. **Create and activate a virtual environment** (recommended):
@@ -118,18 +118,17 @@ Start the ZetaCore backend server:
 ```
 uvicorn ZetaCore:app --reload
 ```
-
 This will start the FastAPI server on http://localhost:8000 by default.
 
-### Streamlit UI (Optional)
+###  React Frontend
 
-If you want to use the Streamlit web interface:
+cd smart-scheduling-agent
 
-```
-streamlit run streamlit_app.py
-```
+npm install ( try running it with force or legacy peers command if it fails)
 
-This will start the Streamlit UI on http://localhost:8501 by default.
+npm run dev 
+
+
 
 ### Voice Interface
 
